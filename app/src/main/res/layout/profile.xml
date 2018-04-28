@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="My profle" />
+
+    <Button
+        android:id="@+id/edit"
+        android:layout_width="50dp"
+        android:layout_height="20dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:background="#003cb3"
+        android:text="Edit"
+        android:textColor="#FFFF"
+        android:layout_alignParentRight="true"
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="20dp"
+        android:text="Name" />
+
+    <TextView
+
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="16dp"
+        android:id="@+id/nameID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:text="Please Edit to add name"
+        android:layout_toRightOf="@id/textView2"
+        />
+
+
+    <TextView
+
+        android:id="@+id/age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/ageIN"
+        android:layout_alignStart="@+id/textView2"
+        android:text="Age"/>
+
+
+    <TextView
+        android:id="@+id/ageIN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nameID"
+        android:text="Please Edit to add age"
+        android:layout_toRightOf="@id/age"
+        android:layout_marginLeft="30dp"
+          />
+
+    <TextView
+        android:id="@+id/height"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/heightIN"
+        android:layout_alignStart="@+id/textView2"
+        android:text="Height" />
+
+
+    <TextView
+        android:id="@+id/heightIN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ageIN"
+        android:text="Please Edit to add height"
+        android:layout_toRightOf="@id/height"
+        android:layout_marginLeft="14dp"
+        />
+
+
+</RelativeLayout>

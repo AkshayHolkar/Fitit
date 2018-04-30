@@ -17,10 +17,32 @@
         android:text="My profle" />
 
     <Button
+        android:id="@+id/btn_graph"
+        android:layout_width="50dp"
+        android:layout_height="20dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="70dp"
+        android:background="#003cb3"
+        android:text="Graph"
+        android:textColor="#FFFF"
+        android:layout_alignParentRight="true"
+        />
+    <Button
+        android:id="@+id/btn_video"
+        android:layout_width="50dp"
+        android:layout_height="20dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="120dp"
+        android:background="#003cb3"
+        android:text="Video"
+        android:textColor="#FFFF"
+        android:layout_alignParentRight="true"
+        />
+    <Button
         android:id="@+id/edit"
         android:layout_width="50dp"
         android:layout_height="20dp"
-        android:layout_marginRight="16dp"
+        android:layout_marginRight="30dp"
         android:layout_marginTop="16dp"
         android:background="#003cb3"
         android:text="Edit"
